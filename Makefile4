@@ -1,0 +1,14 @@
+.PHONY: clean
+.SUFFIXES: .c .o
+
+.c.o:
+	gcc -c $<
+
+Code2: main.o obj.o pole.o
+	gcc -o $@ $^
+main.o: main.c
+obj.o: obj.c
+pole.o: pole.c
+
+clean:
+	rm -f Code2 *.o
