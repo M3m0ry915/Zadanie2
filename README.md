@@ -1,8 +1,7 @@
-# 
-Program pozwala nam na :
-## 
+# Program pozwala nam na :
+
 * policzenie pola kwadratu
-## 
+
 * policzenie objętości sześcianu
 
 ## Proces uruchomienia programu:
