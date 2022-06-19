@@ -1,0 +1,11 @@
+Code2: main.o obj.o pole.o
+	gcc -o Code2 main.o obj.o pole.o
+
+obj.o: obj.c
+	gcc -o obj.c
+
+pole.o: pole.c
+	gcc -o pole.c
+
+main.o: main.c
+	gcc -o main.c
