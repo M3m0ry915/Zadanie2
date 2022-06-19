@@ -1,0 +1,1 @@
+int obj(int a);
