@@ -1,6 +1,6 @@
-## Program pozwala nam na :
-# * policzenie pola kwadratu
-# * policzenie objętości sześcianu
+# Program pozwala nam na :
+## * policzenie pola kwadratu
+## * policzenie objętości sześcianu
 
 ## Proces uruchomienia programu:
 * gcc -c main.c obj.c pole.c
