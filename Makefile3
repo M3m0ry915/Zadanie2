@@ -1,0 +1,11 @@
+Code2: main.o obj.o pole.o
+	gcc -o $@ $^
+
+obj.o: obj.c
+	gcc -o $<
+
+pole.o: pole.c
+	gcc -o $<
+
+main.o: main.c
+	gcc -o $<
