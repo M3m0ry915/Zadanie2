@@ -1,4 +1,5 @@
-# Program pozwala nam na :
+# 
+Program pozwala nam na :
 ## 
 * policzenie pola kwadratu
 ## 
